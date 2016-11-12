@@ -1,0 +1,253 @@
+html, body, header{
+	margin:0px;
+	padding: 0px;
+}
+body{
+	font-family: "Times New Roman", Georgia, Serif;
+	background-image: url("../images/bg-image.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main {
+	width: 80%;
+	margin: 0 auto;
+  	position: relative;
+  	color: white;
+  	font-size: larger
+}
+
+.border-bottom{
+	border-bottom:5px solid #00BFFF;
+}
+
+.main .content {
+ /* position: absolute;*/
+  top: 50px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.main a{
+	text-decoration: none;
+
+}
+.main h1 {
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  color:white;
+  
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+.main a{
+	display: inline-block;
+}
+.main .row{
+	margin-top:70px;
+}
+.nav-container{
+	margin: 30px 0px 30px 0px;
+	color:white;
+}
+.nav-title{
+	font-size: large;
+}
+
+.nav{
+  	color:white;
+  	position: relative;
+}
+.nav img{
+	    height: 36px;
+    	width: 36px;
+      vertical-align: middle;
+      padding-left: 15px;
+}
+.nav ul{
+	list-style: none;
+  display: inline-block;
+  font-size: large;
+}
+.nav li{
+	 display:inline-block;
+  	margin: 0px 30px 0px 0px;
+}
+/*temperory active*/
+.nav a{
+	color:white;
+	padding-top: 5px;
+}
+/* unvisited link */
+.nav >ul >li > a:link {
+    color: white;
+}
+
+/* visited link */
+.nav >ul >li > a:visited, .nav >ul >li > a:hover {
+    border-bottom: 1px solid white;
+}
+.nav >ul >li > a:active{
+	border-bottom: 1px solid white;
+}
+
+
+
+/* mouse over link */
+
+
+/* selected link */
+
+/*need active */
+
+
+/*the flex slider below web design|developer*/
+.slides{
+	text-align: center;
+}
+.fancy{
+	font-weight: bold;
+	text-align: center;
+	color:white;
+	font-style: italic;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+/*slide show */
+#slideshow { 
+    margin: auto; 
+    position: relative; 
+    width: 200px; 
+    height: 60px; 
+    
+    
+}
+#slideshow > div { 
+   text-align: center;
+}
+.slideshow li{
+	list-style: none;
+	display: inline-block;
+	padding-left: 10px;
+}
+.desc{
+	margin:40px 0 40px 0;
+}
+#resume{
+	margin-bottom: 50px;
+	text-align: center;
+}
+#hire-botton{
+	background: #f04;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#wrapper{
+	background: white;
+}
+/* about me section*/
+.jumbotron{
+	margin-bottom: 0px;
+	background: white;
+}
+.jumbotron .container{
+	width: 80%;
+}
+#mypic{
+	
+	border: 1px solid white;
+	border-radius: 100%;
+}
+
+/*projects section*/
+.projects {
+	
+	
+	}
+.projects .container{
+	width:80%;
+}
+.container .row{
+	margin-right: 30px;
+	margin-left: 30px;
+}
+.skill{
+	background: #f04;
+	color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.bottom-pad{
+	padding-bottom: 30px;
+}
+
+/*contactMe section*/
+.contactMe{
+	background-color:white;	
+	color:white;
+}
+.contactMe .container{
+	width: 80%;
+}
+.contactMe img{
+	width:150px;
+	height:150px;
+}
+.contact-image{
+	text-align: center;
+	margin:0px 0px;
+	padding: 0px 0px;
+	
+}
+.contact-image h4{
+	text-align: center;
+}
+
+
+.send{
+	text-align: center;	
+}
+
+/*footer*/
+.footer{
+	background-color: #f3f3f3;
+}
+.footer a{
+	text-decoration:none;
+	color:black;
+
+}
+.footer li{
+	display:inline-block;
+  	margin: 0px 30px 0px 0px;
+  	padding-top: 10px;
+  
+}
+/* unvisited link */
+.footer ul >li > a:link {
+    color: rgb(51,51,51);
+}
+
+/* visited link */
+.footer ul >li > a:visited, .footer ul >li > a:hover {
+    border-bottom: 1px solid black;
+}
+.footer ul >li > a:active{
+	border-bottom: 1px solid white;
+}
+
+hr.separator {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+.clear{
+	clear: both;
+}
+
