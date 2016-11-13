@@ -1,7 +1,7 @@
 var app = angular.module("challenge", ['ngRoute']);
 
 
-app.service(['$routeProvider', function($routeProvider){
+app.service(['$routeProvider', function ($routeProvider) {
     $routeProvider
         .when('/details', {
             templateUrl: "views/details.html",
@@ -11,7 +11,7 @@ app.service(['$routeProvider', function($routeProvider){
             templateUrl: "views/education.html",
             controller: "EducationController"
         })
-        .when("/employment",{
+        .when("/employment", {
             templateUrl: "views/employment.html",
             controller: "EmploymentController"
         })
