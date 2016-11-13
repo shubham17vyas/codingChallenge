@@ -1,0 +1,38 @@
+{
+    "name": "coding-challenge",
+    "version": "1.0.0",
+    "description": "A coding challenge from crowded.com for Front end developer position",
+    "main": "index.html",
+    "dependencies": {
+        "angular": "^1.5.8",
+        "angular-route": "^1.5.8",
+        "bootstrap": "^3.3.7",
+        "jquery": "^3.1.1"
+    },
+    "devDependencies": {
+        "http-server": "^0.9.0"
+    },
+    "scripts": {
+
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 8000 -c-1 ./"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/shubham17vyas/codingChallenge.git"
+    },
+    "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "AngularJS",
+    "JQuery",
+    "Bootstrap"
+  ],
+    "author": "Shubham Vyas",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/shubham17vyas/codingChallenge/issues"
+    },
+    "homepage": "https://github.com/shubham17vyas/codingChallenge#readme"
+}
