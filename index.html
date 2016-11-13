@@ -11,20 +11,21 @@
 
 <body ng-app="challenge">
     <!--The main section includes the header image. Name and LinkedIn profile link.-->
-    <div class="main">
+    <div class="main" ng-controller="MainController">
 
 
         <div class="content container">
             <div class="nav-container">
                 <div class="pull-left nav-title">
-                    <p><a href="#">Shubham Vyas</a>
+                    <p></p>
+                    <p><a href="#">John Doe</a>
                         <br/>Web Designer | Developer
                         <p>
                 </div>
                 <div class="nav navbar nav-pills pull-right">
                     <ul>
                         <li class="active"><a href="/#details">About</a></li>
-                        <li><a href="/#education">Education</a></li>                        
+                        <li><a href="/#education">Education</a></li>
                         <li><a href="/#employment">Employment</a></li>
                     </ul>
                 </div>
@@ -76,19 +77,27 @@
                 <p class="text-center">I am a web developer and graduate student from Utah State University and currently living in Logan. I enjoy building everything from websites to rich interactive web apps. If you are a business seeking a web presence or an employer looking to hire, you can get in touch with me here.</p>
             </div>
             <div id="resume">
-                <a id="hire-botton" href="documents/Resume.pdf" target="_blank"> My Resume</a>
+                <a id="hire-botton" href="documents/sample_resume.txt" target="_blank"> My Resume</a>
+                
+        
             </div>
+            
+            <div class="details">
+               <h1>My Details</h1>
+                <table>
+                    <tr ng-repeat="vp in kvp">
+                        <td>{{vp.key}}</td>
+                        <td>{{vp.value}}</td>
+                    </tr>
+                </table>
+            </div>
+            
+            
+            
         </div>
-
-
-        <div ng-controller="MainController">
-
-            <p>data should display below here.</p>
-            <div>{{info}}</div>
-            <div>{{str}}</div>
-
-
-        </div>
+    
+       
+        
     </div>
 
 
@@ -98,7 +107,7 @@
 
     <div class="page" ng-view></div>
 
-
+<div id="footer"><p class="pull-right"><i>&#169;Copyright</i></p></div>
 
 
     <!--    vendors needed for the application to run-->
@@ -111,8 +120,7 @@
     <script src="js/jquery.js"></script>
 
 
-    <!--  services-->
-    <script src="js/services/factory.js"></script>
+   
 
     <!--  controllers-->
     <script src="js/controllers/details.js"></script>

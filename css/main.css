@@ -3,7 +3,8 @@ html, body, header{
 	padding: 0px;
 }
 body{
-	font-family: "Times New Roman", Georgia, Serif;
+	font-family: verdana;
+    font-size: 10pt;
 	background-image: url("../images/bg-image.jpg");
     background-attachment: fixed;
     background-size: cover;
@@ -146,108 +147,21 @@ body{
     border-radius: 10px;
 }
 
-#wrapper{
-	background: white;
-}
-/* about me section*/
-.jumbotron{
-	margin-bottom: 0px;
-	background: white;
-}
-.jumbotron .container{
-	width: 80%;
-}
-#mypic{
-	
-	border: 1px solid white;
-	border-radius: 100%;
-}
-
-/*projects section*/
-.projects {
-	
-	
-	}
-.projects .container{
-	width:80%;
-}
-.container .row{
-	margin-right: 30px;
-	margin-left: 30px;
-}
-.skill{
-	background: #f04;
-	color: white;
-    padding: 5px;
-    border-radius: 5px;
-}
 
 
-.bottom-pad{
-	padding-bottom: 30px;
-}
-
-/*contactMe section*/
-.contactMe{
-	background-color:white;	
-	color:white;
-}
-.contactMe .container{
-	width: 80%;
-}
-.contactMe img{
-	width:150px;
-	height:150px;
-}
-.contact-image{
-	text-align: center;
-	margin:0px 0px;
-	padding: 0px 0px;
-	
-}
-.contact-image h4{
-	text-align: center;
-}
 
 
-.send{
-	text-align: center;	
+.details{
+    margin:20px;
 }
-
-/*footer*/
-.footer{
-	background-color: #f3f3f3;
+#footer{
+    display: block;
+    background-color: cornflowerblue;
+    color:navajowhite;
+    padding: 3px 5px;
+    width:100%;
+    height: 30px;
 }
-.footer a{
-	text-decoration:none;
-	color:black;
-
+td:first-child{
+  font-weight: bold;
 }
-.footer li{
-	display:inline-block;
-  	margin: 0px 30px 0px 0px;
-  	padding-top: 10px;
-  
-}
-/* unvisited link */
-.footer ul >li > a:link {
-    color: rgb(51,51,51);
-}
-
-/* visited link */
-.footer ul >li > a:visited, .footer ul >li > a:hover {
-    border-bottom: 1px solid black;
-}
-.footer ul >li > a:active{
-	border-bottom: 1px solid white;
-}
-
-hr.separator {
-	height: 10px;
-	border: 0;
-	box-shadow: 0 10px 10px -10px #8c8b8b inset;
-}
-.clear{
-	clear: both;
-}
-
